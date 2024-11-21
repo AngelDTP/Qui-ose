@@ -12,6 +12,8 @@ Définition de "DONE"
 
 6.Pas de bugs bloquants : Tous les bugs critiques ou bloquants identifiés pendant les tests ont été corrigés.
 
+7.Je m'assure qu'après un merge, le code provenant des différentes parties ou contributeurs est correctement intégré et qu'aucune portion de code n'est omise ou écrasée par erreur.
+
 Sprint 1
 ...
 
