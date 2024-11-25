@@ -147,7 +147,6 @@ public class EmployeurService {
 
         Employeur employeur = getEmployeurFromContrat(contrat);
 
-        // Validation du mot de passe crypté
         if (passwordEncoder.matches(password, employeur.getPassword())) {
             System.out.println("Mot de passe correct : " + employeur.getPassword());
             contrat.signerContratEmployeur();

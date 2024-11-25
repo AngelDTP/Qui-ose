@@ -20,8 +20,6 @@ public class Employeur extends UserApp{
         this.entreprise = entreprise;
     }
 
-
-
     @Override
     public String toString() {
         return "Employeur{" +
@@ -34,5 +32,4 @@ public class Employeur extends UserApp{
                 ", entreprise='" + (entreprise != null ? entreprise : "null") + '\'' +
                 '}';
     }
-
 }

@@ -25,7 +25,7 @@ function EmployeurHeader({ userData, onSendData}) {
             return storedSession;
         }
         if (initialSession) {
-            localStorage.setItem('session', initialSession); // Stocker initialSession si elle est absente
+            localStorage.setItem('session', initialSession);
             return initialSession;
         }
         return '';

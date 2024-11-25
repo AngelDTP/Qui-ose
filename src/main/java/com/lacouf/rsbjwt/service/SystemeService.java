@@ -477,9 +477,8 @@ public class SystemeService {
 
         // Signature and Date
         document.add(new Paragraph("Nom: " + evaluation.getEmployeur().getFirstName().toUpperCase() + " " + evaluation.getEmployeur().getLastName().toUpperCase()));
-        // Create a table with 2 columns
         PdfPTable table = new PdfPTable(2);
-        table.setWidthPercentage(100); // Set table width to 100% of the page
+        table.setWidthPercentage(100);
 
         PdfPCell signatureCell = new PdfPCell();
         signatureCell.setBorder(PdfPCell.NO_BORDER);
@@ -502,7 +501,6 @@ public class SystemeService {
         return baos.toByteArray();
     }
 
-    // Helper method to create an evaluation table with headers
     private PdfPTable createEvaluationTable() throws DocumentException {
         PdfPTable table = new PdfPTable(5);
         table.setWidthPercentage(100);

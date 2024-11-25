@@ -42,7 +42,6 @@ public class Entrevue {
         this.offreDeStage = offreDeStage;
     }
 
-
     @Override
     public String toString() {
         return "Entrevue{" +
